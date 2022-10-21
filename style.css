@@ -1,0 +1,51 @@
+.image-modal-popup {
+    background: rgba(0, 0, 0, 0.9); }
+  
+  .image-modal-popup img {
+    max-height: calc(100vh - 50px);
+    padding-top: 8%;
+    cursor: pointer; }
+  
+  .hidden {
+    display: none; }
+  
+  .mybox {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center; }
+  
+  select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none; }
+  
+  /* For IE10 */
+  select::-ms-expand {
+    display: none; }
+  
+  /* Select arrow styling */
+  .mybox .myarrow {
+    width: 45px;
+    height: 28px;
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    background: url("https://icons.veryicon.com/png/o/miscellaneous/simple-and-round-line-mark/down-arrow-56.png") right/90% no-repeat;
+    pointer-events: none; }
+  
+  .showMore::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    background: #d9dee8;
+    content: '';
+    width: 100%;
+    display: block;
+    z-index: -10; }
+  
+  option {
+    font-size: 20px; }
+  
